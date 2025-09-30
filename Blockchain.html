@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>Blockchain</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+  <main>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark py-3 fixed-top">
+      <div class="container-fluid">
+        <a class="navbar-brand ms-4 fw-bold" href="Inicio.html">Tecnologías Emergentes</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuDesplegable"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menuDesplegable">
+          <ul class="navbar-nav ms-auto d-flex gap-4">
+
+            <li class="nav-item me-3 fw-bold">
+              <a class="nav-link active" aria-current="page" href="Inicio.html">Inicio</a>
+            </li>
+            <li class="nav-item me-3 fw-bold">
+              <a class="nav-link" href="Inicio.html#sobrenosotros">Sobre Nosotros</a>
+            </li>
+
+            <li class="nav-item dropdown me-3">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Explora las Tecnologías
+              </a>
+              <ul class="dropdown-menu bg-dark">
+                <li><a class="dropdown-item text-light bg-dark" href="IA.html">Inteligencia Artificial</a></li>
+                <li><a class="dropdown-item text-light bg-dark" href="Machine_learnig.html">Machine Learning</a></li>
+                <li><a class="dropdown-item text-light bg-dark" href="RealidadVR_AR.html">Realidad Virtual/AR</a></li>
+                <li><a class="dropdown-item text-light bg-dark" href="Blockchain.html">Blockchain</a></li>
+                <li><a class="dropdown-item text-light bg-dark" href="InternetdelasCosas.html">Internet de las cosas</a></li>
+                <li><a class="dropdown-item text-light bg-dark" href="Criptografia.html">Criptografia post-cuantica para
+                    la seguridad</a></li>
+                <li><a class="dropdown-item text-light bg-dark" href="Impresion3d.html">Impresión 3D avanzada</a></li>
+                <li><a class="dropdown-item text-light bg-dark" href="Robotica_avz.html">Robótica Avanzada</a></li>
+                <li><a class="dropdown-item text-light bg-dark" href="EdgeComputing.html">Edge Computing</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-item me-4 fw-bold">
+              <a class="nav-link" href="form.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5 mt-5 pt-5">
+
+      <div class="row text-center mb-4">
+        <div class="col-12">
+          <h1 class="display-4 fw-bold text-primary-emphasis">Blockchain</h1>
+          <p class="lead text-muted">Tecnología que transforma la confianza digital.</p>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <img src="imagenes/blockchain2.jpg" alt="Imagen de blockchain" class="img-fluid d-block mx-auto w-50 h-auto">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <h4 class="text-primary mb-3"><i class="bi bi-boxes me-2"></i>¿Qué es blockchain y por qué está
+            revolucionando el mundo digital?</h4>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-10">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <p class="fs-5">Blockchain es una tecnología que permite registrar información de forma segura,
+                transparente y descentralizada.
+                Imagina un libro de contabilidad digital que no está en manos de una sola persona, sino que se comparte
+                entre miles
+                de computadoras. Cada vez que se guarda un dato (como una transacción o contrato), se crea un bloque que
+                se une al
+                anterior, formando una cadena que nadie puede alterar sin que todos lo noten.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-12 text-center">
+          <h5 class="text-primary"><i class="bi bi-shield-lock me-2"></i>¿Cómo se protege esa cadena?</h5>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-4">
+        <div class="col-lg-10">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="bi bi-fingerprint me-2 text-primary"></i>Su propio hash: una
+                  huella digital única generada por una fórmula matemática.</li>
+                <li class="list-group-item"><i class="bi bi-link-45deg me-2 text-primary"></i>El hash del bloque
+                  anterior: mantiene la conexión entre bloques.</li>
+                <li class="list-group-item"><i class="bi bi-file-earmark-text me-2 text-primary"></i>La información
+                  registrada: por ejemplo, “Angie envió 5 tokens a Juan”.</li>
+              </ul>
+              <p class="mt-3">Si alguien intenta modificar el contenido de un bloque, el hash cambia automáticamente. Y
+                como los bloques están conectados, ese cambio rompe la cadena. Las demás computadoras (nodos) lo
+                detectan y rechazan el intento. Es como cambiar una ficha en una fila de dominó: todo se desajusta.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row mb-5">
+        <div class="col-12 text-center">
+          <img src="imagenes/hash.webp" alt="Imagen explicativa del hash" class="img-fluid d-block mx-auto w-50 h-auto">
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-10">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="text-primary text-center"><i class="bi-tools me-2"></i>Ejemplo práctico</h5>
+              <p>Piensa en una empresa exportadora de camarones en Ecuador que quiere garantizar la trazabilidad de
+                su producto. Con blockchain, puede registrar cada paso: desde la pesca, el transporte, el empaque, hasta
+                la
+                entrega final. Así, el comprador en Europa puede verificar que el camarón fue capturado de forma
+                sostenible y
+                llegó sin alteraciones. Si alguien intentara alterar los datos para decir que un lote fue premium cuando
+                no lo
+                fue, el hash se rompería y el sistema lo detectaría. Esto genera confianza y valor agregado.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-10">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="text-primary text-center"><i class="bi bi-geo-alt me-2"></i>¿Dónde se usa?</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="bi bi-currency-bitcoin me-2 text-primary"></i>Finanzas:
+                  criptomonedas como Bitcoin o Ethereum.</li>
+                <li class="list-group-item"><i class="bi bi-truck me-2 text-primary"></i>Logística: seguimiento de
+                  productos en tiempo real.</li>
+                <li class="list-group-item"><i class="bi bi-hospital me-2 text-primary"></i>Salud: historial médico
+                  seguro y compartido entre instituciones.</li>
+                <li class="list-group-item"><i class="bi-clipboard-data me-2 text-primary"></i>Votaciones digitales:
+                  sistemas más transparentes y difíciles de manipular.</li>
+                <li class="list-group-item"><i class="bi bi-file-earmark-check me-2 text-primary"></i>Contratos
+                  inteligentes: acuerdos que se ejecutan automáticamente al cumplirse condiciones.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-5">
+        <div class="col-lg-10">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="text-primary text-center"><i class="bi bi-person-workspace me-2"></i>Oferta laboral en
+                crecimiento</h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"><i class="bi bi-code-slash me-2 text-primary"></i>Desarrolladores blockchain
+                  (Solidity, Ethereum, etc.)</li>
+                <li class="list-group-item"><i class="bi bi-search me-2 text-primary"></i>Auditores de contratos
+                  inteligentes</li>
+                <li class="list-group-item"><i class="bi bi-box-seam me-2 text-primary"></i>Consultores en trazabilidad
+                  y transformación digital</li>
+                <li class="list-group-item"><i class="bi bi-palette me-2 text-primary"></i>Diseñadores UX para apps
+                  descentralizadas (dApps)</li>
+                <li class="list-group-item"><i class="bi bi-cash-coin me-2 text-primary"></i>Especialistas en
+                  tokenización de activos</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center mb-5 mt-5">
+        <div class="col-md-6 mb-3">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <h6 class="card-title"><i class="bi bi-graph-up-arrow me-2 text-primary"></i>Crecimiento laboral</h6>
+              <p class="card-text text-muted">Los empleos relacionados con blockchain han
+                crecido más del 500% en los últimos años.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card text-center shadow-sm">
+            <div class="card-body">
+              <h6 class="card-title"><i class="bi bi-globe-americas me-2 text-primary"></i>Interés en América Latina
+              </h6>
+              <p class="card-text text-muted">América Latina está despertando interés por
+                soluciones descentralizadas en sectores como agricultura, banca y educación.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container my-5">
+        <div class="row">
+          <div class="col-12">
+            <h3 class="text-center text-primary mb-4"> Videos Recomendados</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 mb-4">
+            <div class="ratio ratio-16x9 shadow">
+              <iframe src="https://www.youtube.com/embed/8rUGRdOi3XM" title="Video 1 sobre Blockchain"
+                allowfullscreen></iframe>
+            </div>
+            <p class="text-center mt-2">Historia y funcionamiento de blockchain</p>
+          </div>
+          <div class="col-md-6 mb-4">
+            <div class="ratio ratio-16x9 shadow">
+              <iframe src="https://www.youtube.com/embed/Yn8WGaO__ak" title="Video 2 sobre Blockchain"
+                allowfullscreen></iframe>
+            </div>
+            <p class="text-center mt-2">Explicación sobre blockchain</p>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-5 mt-5">
+          <div class="col-lg-6">
+            <div class="card shadow-sm text-center">
+              <div class="card-body">
+                <i class="bi bi-mortarboard text-primary" style="font-size: 2rem;"></i>
+                <h5 class="card-title mt-2">Curso de IBM</h5>
+                <p class="card-text text-muted">Explora el catálogo de Blockchain para estudiantes en SkillsBuild.
+                </p>
+                <a href="https://skillsbuild.org/es/students/course-catalog/blockchain" target="_blank"
+                  class="btn btn-outline-dark w-100">
+                  Ver Curso <i class="bi bi-box-arrow-up-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row justify-content-center mb-5">
+          <div class="col-12">
+            <h4 class="text-center text-primary mb-4"><i class="bi bi-question-circle me-2"></i>Preguntas Frecuentes
+            </h4>
+          </div>
+          <div class="col-lg-10">
+            <div class="accordion" id="faqBlockchain">
+
+              <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header" id="faq1">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                    <i class="bi bi-lightbulb me-2 text-primary"></i> ¿Qué hace único al blockchain frente a otras
+                    tecnologías?
+                  </button>
+                </h2>
+                <div id="collapse1" class="accordion-collapse collapse" aria-labelledby="faq1"
+                  data-bs-parent="#faqBlockchain">
+                  <div class="accordion-body">
+                    Blockchain registra información de forma segura, transparente y descentralizada. Su estructura en
+                    bloques enlazados impide alteraciones sin consenso, lo que lo hace ideal para transacciones,
+                    trazabilidad y contratos digitales.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header" id="faq2">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                    <i class="bi bi-shield-check me-2 text-primary"></i> ¿Cómo garantiza la seguridad blockchain?
+                  </button>
+                </h2>
+                <div id="collapse2" class="accordion-collapse collapse" aria-labelledby="faq2"
+                  data-bs-parent="#faqBlockchain">
+                  <div class="accordion-body">
+                    Cada bloque contiene un hash único, el hash del bloque anterior y la información registrada. Si
+                    alguien intenta modificar un dato, el hash cambia y rompe la cadena. Los nodos detectan el cambio y
+                    lo rechazan, asegurando integridad.
+                  </div>
+                </div>
+              </div>
+
+              <div class="accordion-item shadow-sm mb-3">
+                <h2 class="accordion-header" id="faq3">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                    <i class="bi bi-briefcase me-2 text-primary"></i> ¿Qué oportunidades laborales ofrece blockchain?
+                  </button>
+                </h2>
+                <div id="collapse3" class="accordion-collapse collapse" aria-labelledby="faq3"
+                  data-bs-parent="#faqBlockchain">
+                  <div class="accordion-body">
+                    El crecimiento de blockchain ha generado demanda de desarrolladores, auditores de contratos
+                    inteligentes, consultores en trazabilidad, diseñadores UX para dApps y especialistas en
+                    tokenización. América Latina está explorando su aplicación en sectores clave.
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+  </main>
+  <footer class="bg-dark text-white py-4 mt-5">
+    <div class="container">
+      <div class="row text-center text-md-start">
+        <!-- Información del sitio -->
+        <div class="col-12 col-md-4 mb-4 mb-md-0">
+          <h6 class="fw-bold">Portal de Tecnologías Emergentes</h6>
+          <p>© 2025 Todos los derechos reservados</p>
+        </div>
+
+        <div class="col-12 col-md-4 mb-4 mb-md-0 text-md-center">
+          <p class="mb-1">Proyecto Académico - Desarrollo de Software</p>
+          <p class="mb-0">
+            <i class="bi bi-bootstrap-fill text-primary text-center"></i> Desarrollado con Bootstrap
+          </p>
+        </div>
+
+        <div class="col-12 col-md-4 text-md-end text-center">
+          <h6 class="fw-bold">Contacto</h6>
+          <p class="mb-1"><i class="bi bi-envelope-fill"></i> mdquijije@tes.edu.ec</p>
+          <p class="mb-0"><i class="bi bi-envelope-fill"></i> matello@tes.edu.ec</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
+
+</body>
+
+</html>
